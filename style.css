@@ -12,6 +12,11 @@
     background-color: var(--theme-color);
   }
 
+  .btn{
+    background-color: var(--theme-color) !important;
+    color: #fff;
+  }
+
   .team-boxed p {
     color:#7d8285;
   }
