@@ -1,9 +1,17 @@
+:root {
+    --theme-color: #eef4f7;
+  }
+
 .team-boxed {
     color:#313437;
-    background-color:#eef4f7;
+    background-color:var(--theme-color);
     height: 100vh;
   }
   
+  .imageContainer img{
+    background-color: var(--theme-color);
+  }
+
   .team-boxed p {
     color:#7d8285;
   }
